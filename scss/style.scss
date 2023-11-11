@@ -18,8 +18,9 @@ html {
 nav {
   position: fixed;
   top: 0;
-  padding: 1.4rem;
-  background: #dddddda6;
+  padding: 2vw;
+  background: hsl(0deg 0% 1.67% / 11%);
+  box-shadow: -2px 1px 10px #12111129;
   width: 100%;
   ul {
     display: flex;
@@ -27,7 +28,7 @@ nav {
     align-items: center;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: min(1.2rem, 3vw);
+    font-size: min(1rem, 3vw);
     text-align: center;
     gap: min(3rem, 3vw);
     li {
@@ -52,15 +53,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: min(1rem, 3vw);
     flex-direction: column;
     font-weight: 600;
-    gap: 1rem;
+    gap: 0.45rem;
     color: #000;
-    font-size: max(1rem, 1.4vw);
     text-align: center;
     img {
-      width: max(30vw, 300px);
+      width: max(25vw, 300px);
       height: auto;
     }
     a {
@@ -70,7 +70,7 @@ main {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1rem;
+      gap: 0.4rem;
     }
   }
 }
